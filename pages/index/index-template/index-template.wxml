@@ -1,0 +1,9 @@
+<template name="musicTemplate">
+  <view class="sunshine" bindtap='musicHandler' data-category="{{category}}">
+    <view class="sunshine-music" >
+        <image wx:for="{{ songlist }}" wx:for-index="idx" wx:key="idx" src="{{ item.pic_big }}" class="content"></image>  
+    </view>
+    <view class="info">{{ category }}</view>
+    <view class="num">3000人关注</view>
+  </view>
+</template>

@@ -1,0 +1,18 @@
+<!--pages/music/music.wxml-->
+
+
+<import src="music-list-template/music-list-template.wxml" />
+<import src="play/play.wxml" />
+
+<view class="container music-container">
+
+  <template is="playMusic" data="{{title:title, playing:playing}}" />
+  <view class="music-top">
+    <image src='{{ musicPic }}'></image>
+    <view class="info">
+      <text class="title">{{ musicTitle }}</text>
+      <text class="desc">{{ musicDesc }}</text>
+    </view>
+  </view>
+  <template is="musicList" data="{{ musicList }}"/>
+</view>

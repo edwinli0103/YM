@@ -1,0 +1,25 @@
+.index-container .sunshine{
+  background: #fff;
+  margin:10px auto;
+  padding-bottom: 5px;
+}
+
+.index-container .sunshine .sunshine-music{
+  display: flex;
+}
+
+.index-container .sunshine .sunshine-music .content{
+  flex: 1;
+  height: 230rpx;
+}
+
+.index-container .sunshine .info{
+  text-align: center;
+  font-size: 15px; 
+}
+
+.index-container .sunshine .num{
+  text-align: center;
+  font-size: 10px;
+  color: #000;
+}

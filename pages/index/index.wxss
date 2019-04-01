@@ -1,0 +1,65 @@
+
+@import "index-template/index-template.wxss";
+
+.index-container .index-top{
+  display: flex;
+  height: 400rpx;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.index-container .index-top .index-recommend{
+  height: 340rpx;
+  flex: 1;
+  margin-right: 2rpx;
+  background-image: url("https://wwtliu.com/sxtstu/music/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index-container .index-top .index-circle{
+  height: 340rpx;
+  flex: 1;
+  margin-left: 2rpx;
+  background-image: url("https://wwtliu.com/sxtstu/music/2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.index-container .index-top .info{
+  width: 100%;
+  height: 340rpx;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.index-container .index-top .index-recommend .time{
+  color: #fff;
+  font-size: 15px;
+}
+
+.index-container .index-top .index-recommend .day{
+   color: #fff;
+  font-size: 25px;
+}
+
+.index-container .index-top .index-circle .share{
+  color: #fff;
+}
+
+.index-container .index-top .today-recommend{
+  font-size: 12px;
+}
+
+.index-container .index-top .firend-circle{
+  font-size: 12px;
+}
+
+.line{
+  height: 1px;
+  width: 100%;
+  background: #eee;
+}

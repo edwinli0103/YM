@@ -1,0 +1,36 @@
+.music-list{
+  background: #fff;
+}
+
+.music-list .item{
+  display: flex;
+  padding: 10px;
+}
+
+.music-list .item .num{
+  flex: 1;
+  font-size: 10px;
+  color: #999;
+  margin-top: 10px;
+}
+
+.music-list .item .musicinfo{
+  flex: 5;
+}
+
+.music-list .item .musicinfo .name{
+  font-size: 13px;
+  display: block;
+}
+
+.music-list .item .musicinfo .author{
+  font-size: 10px;
+  color: #999;
+}
+
+.music-list .item .icon{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-left: 20px;
+}

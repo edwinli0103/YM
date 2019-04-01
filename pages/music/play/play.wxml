@@ -1,0 +1,8 @@
+<template name="playMusic">
+  <view class="play-controller">
+    <image class="music-play" src='../images/musicplay.png'></image>
+    <text class="music-name">{{title}}</text>
+    <image wx:if="{{ !playing }}" bindtap='play' class="play" src='../images/puase.png'></image> 
+    <image wx:else class="play" bindtap='pause' src='../images/play.png'></image>
+  </view>
+</template>

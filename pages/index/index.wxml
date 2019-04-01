@@ -1,0 +1,25 @@
+
+<import src="index-template/index-template.wxml" />
+
+<view class="index-container container">
+  <view class="index-top" >
+    <view class="index-recommend" bindtap='musicHandler' data-category="今日推荐">
+      <view class="info">
+        <text class='time'>2019.01</text>
+        <text class="day">25</text>
+      </view>
+      <text class="today-recommend">今日推荐</text>
+    </view>
+    <view class="index-circle" bindtap='musicHandler' data-category="朋友圈歌曲">
+      <view class="info">
+        <text class='share'>朋友圈</text>
+      </view>
+      <text class="firend-circle">朋友圈歌曲</text>
+    </view>
+  </view>
+
+  <template is='musicTemplate' data="{{ ...newsong }}"></template>
+  <template is='musicTemplate' data="{{ ...hotsong }}"></template>
+  <template is='musicTemplate' data="{{ ...rocksong }}"></template>
+ 
+</view>
